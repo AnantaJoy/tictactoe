@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install'
+1 verbose cli ]
+2 info using npm@6.14.14
+3 info using node@v14.17.5
+4 verbose npm-session 6af0af7d0fd82315
+5 silly install runPreinstallTopLevelLifecycles
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 timing stage:rollbackFailedOptional Completed in 6ms
+9 timing stage:runTopLevelLifecycles Completed in 11677ms
+10 verbose stack Error: Failed to parse json
+10 verbose stack Unexpected token } in JSON at position 354 while parsing near '...rcel": "^1.12.4",
+10 verbose stack   },
+10 verbose stack   "scripts": {
+10 verbose stack   ...'
+10 verbose stack     at parseError (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:470:11)
+10 verbose stack     at parseJson (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:105:26)
+10 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:52:5
+10 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:123:16
+10 verbose stack     at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:73:3)
+11 verbose cwd C:\Users\Ananta Asim\OneDrive\Desktop\Internshala\React\tictactoe
+12 verbose Windows_NT 10.0.19043
+13 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+14 verbose node v14.17.5
+15 verbose npm  v6.14.14
+16 error code EJSONPARSE
+17 error file C:\Users\Ananta Asim\OneDrive\Desktop\Internshala\React\tictactoe\package.json
+18 error JSON.parse Failed to parse json
+18 error JSON.parse Unexpected token } in JSON at position 354 while parsing near '...rcel": "^1.12.4",
+18 error JSON.parse   },
+18 error JSON.parse   "scripts": {
+18 error JSON.parse   ...'
+19 error JSON.parse Failed to parse package.json data.
+19 error JSON.parse package.json must be actual JSON, not just JavaScript.
+20 verbose exit [ 1, true ]
